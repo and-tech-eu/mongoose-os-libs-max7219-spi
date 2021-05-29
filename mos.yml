@@ -15,7 +15,7 @@ config_schema:
   - ["max7219.num_devices", "i", 1, {title: "Number of daisy-chained devices (1 or more)"}]
 
 libs:
-  - origin: https://github.com/mongoose-os-libs/spi
+  - location: https://github.com/mongoose-os-libs/spi
 
 tags:
   - c
